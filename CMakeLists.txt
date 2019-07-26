@@ -8,7 +8,6 @@ project(opencv_rankpooling_project)
 
 # Find OpenCV, need to set OpenCV_DIR variable to absolute path 
 # of  directory containing OpenCVConfig.cmake file
-# set(OpenCV_DIR "/home/sliu/Devel/opencv-lib/installation/opencv-3.4.4/share/OpenCV/")
 set (OpenCV_DIR "${OPENCV_CMAKE_INSTALL_PREFIX}")
 find_package(OpenCV REQUIRED)
 
